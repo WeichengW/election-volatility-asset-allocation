@@ -93,10 +93,7 @@ $\lambda \$): Penalty term to control the influence of election-period shocks
 
 ### Analysis 5: Machine Learning-Based Allocation
 - Trained Random Forest on volatility and political features
-- Output: Allocation weights that minimize a composite risk function:
-  \[
-  \text{Custom\_Risk}_i = \hat{\sigma}_{i,\text{post}}^2 + \lambda \cdot \text{Abnormal}_i^2
-  \]
+- Output: Allocation weights that minimize a composite risk function as our objective function.
 - Recommended allocations are inversely proportional to predicted risk.
 
 ---
