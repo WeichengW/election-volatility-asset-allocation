@@ -69,7 +69,7 @@ $$
 $$
 
 This function ensures diversification and penalizes allocations toward high-risk or unstable assets during election periods.
-\lambda \): Penalty term to control the influence of election-period shocks  
+$\lambda \$): Penalty term to control the influence of election-period shocks  
 
 ---
 
